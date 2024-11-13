@@ -17,4 +17,4 @@ on:
 
 jobs:
   build:
-    uses: ./.github/actions/renovate-ci
+    uses: ./.github/workflows/renovate-ci.yaml
