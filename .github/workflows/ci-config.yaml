@@ -17,4 +17,4 @@ on:
 
 jobs:
   build:
-    uses: ./renovate-ci.yaml@main
+    uses: .//renovate-ci.yaml@main
