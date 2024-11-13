@@ -17,6 +17,4 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./renovate-ci
+    uses: ./.github/workflows/renovate-ci.yaml
