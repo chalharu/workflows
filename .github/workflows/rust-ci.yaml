@@ -20,7 +20,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4.2.2
     - name: Enable cache
-      uses: Swatinem/rust-cache@f0deed1e0edfc6a9be95417288c0e1099b1eeec3 # v2.7.7
+      uses: Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6 # v2.7.8
     - name: Install the stable toolchain
       if: ${{ !github.event.inputs.clippy }}
       uses: dtolnay/rust-toolchain@888c2e1ea69ab0d4330cbf0af1ecc7b68f368cc1 # stable
