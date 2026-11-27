@@ -25,12 +25,12 @@ jobs:
       if: ${{ !github.event.inputs.clippy }}
       uses: dtolnay/rust-toolchain@39008827e6b4319a349e9a42dfc90579dd25f1ca # stable
       with:
-        toolchain: 1.100.0
+        toolchain: 1.100.1
     - name: Install the stable toolchain
       if: ${{ github.event.inputs.clippy }}
       uses: dtolnay/rust-toolchain@39008827e6b4319a349e9a42dfc90579dd25f1ca # stable
       with:
-        toolchain: 1.100.0
+        toolchain: 1.100.1
         components: clippy
     - name: Build
       run: cargo build --verbose --workspace
